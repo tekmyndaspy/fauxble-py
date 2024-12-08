@@ -4,6 +4,9 @@ import random
 import subprocess
 
 print("Starting Fauxble.")
+randomMessages = ["\"smoking pot and programming camp, i don\'t give a shit\" - casket",
+                  "\"fuck batch. me and my homies all hate batch\" - tekmyndaspy"]
+print(random.choice(randomMessages))
 
 # User definable variables
 mainVideoDir='Main' # Defines the folder which contains main videos. Default is 'Main'.
