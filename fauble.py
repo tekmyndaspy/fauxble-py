@@ -1,6 +1,7 @@
 import os
 import sys
 import random
+import subprocess
 
 print("Starting Fauxble.")
 
@@ -56,7 +57,7 @@ while (True):
             
     # play the chosen file.
     print("Playing" + chosenFile + ".")
-    os.system(videoPlayer + " \"" + chosenFile + "\"")
+    subprocess.run(videoPlayer + " \"" + chosenFile + "\"")
 
     # select random file directly in, or in a subfolder of, the intermediary video directory
     print("")
@@ -98,4 +99,4 @@ while (True):
             
     # play the chosen file.
     print("Playing" + chosenFile + ".")
-    os.system(videoPlayer + " \"" + chosenFile + "\"")
+    subprocess.run(videoPlayer + " \"" + chosenFile + "\"")
