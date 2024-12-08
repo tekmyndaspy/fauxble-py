@@ -8,7 +8,7 @@ print("Starting Fauxble.")
 # User definable variables
 mainVideoDir='Main' # Defines the folder which contains main videos. Default is 'Main'.
 intermediaryVideoDir='Intermediary' # Defines the folder which contains intermediary videos. Default is 'Intermediary'.
-allowedExtensions = ['.mp4', '.webm'] # Defines the list of extensions accepted by the videoplayer.
+allowedExtensions = ['.mp4', '.webm', 'mkv'] # Defines the list of extensions accepted by the videoplayer.
 videoPlayer = 'mpv --fs --af=loudnorm' # Defines the videoplayer and commandline arguments for playing videos.
 
 # Important constants that the script uses. Don't touch these, unless you know what you're doing.
